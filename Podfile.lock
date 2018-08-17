@@ -1,0 +1,81 @@
+PODS:
+  - Firebase/Core (5.4.1):
+    - Firebase/CoreOnly
+    - FirebaseAnalytics (= 5.0.1)
+  - Firebase/CoreOnly (5.4.1):
+    - FirebaseCore (= 5.0.6)
+  - Firebase/Messaging (5.4.1):
+    - Firebase/CoreOnly
+    - FirebaseMessaging (= 3.0.3)
+  - FirebaseAnalytics (5.0.1):
+    - FirebaseCore (~> 5.0)
+    - FirebaseInstanceID (~> 3.0)
+    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
+    - nanopb (~> 0.3)
+  - FirebaseCore (5.0.6):
+    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
+  - FirebaseInstanceID (3.1.1):
+    - FirebaseCore (~> 5.0)
+  - FirebaseMessaging (3.0.3):
+    - FirebaseCore (~> 5.0)
+    - FirebaseInstanceID (~> 3.0)
+    - GoogleToolboxForMac/Logger (~> 2.1)
+    - Protobuf (~> 3.1)
+  - GoogleToolboxForMac/Defines (2.1.4)
+  - GoogleToolboxForMac/Logger (2.1.4):
+    - GoogleToolboxForMac/Defines (= 2.1.4)
+  - "GoogleToolboxForMac/NSData+zlib (2.1.4)":
+    - GoogleToolboxForMac/Defines (= 2.1.4)
+  - nanopb (0.3.8):
+    - nanopb/decode (= 0.3.8)
+    - nanopb/encode (= 0.3.8)
+  - nanopb/decode (0.3.8)
+  - nanopb/encode (0.3.8)
+  - OcticonsKit (1.1.0)
+  - p2.OAuth2 (4.0.1)
+  - Protobuf (3.6.0)
+
+DEPENDENCIES:
+  - Firebase/Core
+  - Firebase/Messaging
+  - OcticonsKit
+  - p2.OAuth2 (from `https://github.com/p2/OAuth2`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Firebase
+    - FirebaseAnalytics
+    - FirebaseCore
+    - FirebaseInstanceID
+    - FirebaseMessaging
+    - GoogleToolboxForMac
+    - nanopb
+    - OcticonsKit
+    - Protobuf
+
+EXTERNAL SOURCES:
+  p2.OAuth2:
+    :git: https://github.com/p2/OAuth2
+    :submodules: true
+
+CHECKOUT OPTIONS:
+  p2.OAuth2:
+    :commit: e81b4bc4a3cfc3d11b62aba07241ceeb0684ac07
+    :git: https://github.com/p2/OAuth2
+    :submodules: true
+
+SPEC CHECKSUMS:
+  Firebase: 355bd535bfdacaa82a7fe8d9784115edefd6fc03
+  FirebaseAnalytics: b3628aea54c50464c32c393fb2ea032566e7ecc2
+  FirebaseCore: 4c28e3b9708ba48a765e76515f913a71596eb5dd
+  FirebaseInstanceID: f3f0657372592ecdfdfe2cac604a5a75758376a6
+  FirebaseMessaging: f43eb0c0e1da096e659de6f713038e74862a62cd
+  GoogleToolboxForMac: 91c824d21e85b31c2aae9bb011c5027c9b4e738f
+  nanopb: 5601e6bca2dbf1ed831b519092ec110f66982ca3
+  OcticonsKit: 87842138637c0e894fb12c1ee791e27793e56269
+  p2.OAuth2: fdc2effef37793a8f775dd4760bc4c1ea906c956
+  Protobuf: 0fc0ad8bec688b2a3017a139953e01374fedbd5f
+
+PODFILE CHECKSUM: 33d89e0b88e3c1a2e8d6031f7c127c033ed58804
+
+COCOAPODS: 1.5.3

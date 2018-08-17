@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14135" systemVersion="17G65" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Alert" representedClassName="Alert" syncable="YES">
+        <attribute name="alertAction" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="alertDate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="alertDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="alertEvent" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="alertTitle" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="authorIcon" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="authorName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="repoName" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Alert" positionX="-63" positionY="-18" width="128" height="165"/>
+    </elements>
+</model>
