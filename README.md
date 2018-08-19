@@ -1,4 +1,4 @@
-[Now on the AppStore!](https://itunes.apple.com/app/gitfy/id1429969252?mt=8&ign-mpt=uo%3D2)
+[Now on the App Store!](https://itunes.apple.com/app/gitfy/id1429969252?mt=8&ign-mpt=uo%3D2)
 
 Gitfy is a serverless GitHub repository tracker with push notifications for iOS. It is designed to help repository owners and administrators track and be notified of important events which occur on those repositories.
 
